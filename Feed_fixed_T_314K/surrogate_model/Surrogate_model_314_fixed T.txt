@@ -1,0 +1,38 @@
+[[[[FOR fixed 314 K]]]]
+
+[AVAJUE]
+DENSITY:
+164.1141281
+
+Mass capacity:
+M (kg CH4 / kg adsorbent) = 
+k1*k2*( P - P_init )^k3 / ( 1 + k2*( P - P_init )^k3 )
+
+[k1 , k2, k3] = 
+[1.54028371e+01 6.38285489e-04 8.64567755e-01]
+
+
+[QIYDIN]
+DENSITY: 
+244.98980
+
+Mass capacity:
+M (kg CH4 / kg adsorbent) = 
+k1*k2*( P - P_init )^k3 / ( 1 + k2*( P - P_init )^k3 )
+
+[k1 , k2, k3] = 
+[9.16200225e+00 2.99323260e-04 9.74440404e-01]
+
+
+[ZEOLITE 13X]
+
+DENSITY: 
+1000
+
+Mass capacity:
+M (kg CH4 / kg adsorbent) = 
+k1*k2*( P - P_init )^k3 / ( 1 + k2*( P - P_init )^k3 ) 
+  + k4*k5*( P - P_init ) / ( 1 + k2*( P - P_init ) ) 
+
+[k1 , k2, k3, k4, k5] = 
+[ -1.4526246889906231 0.009082372500897929 1.0309338553556233 1.5844610805488593 0.01052271337860611 ]
